@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8446b119-5938-4576-8ec5-7ffa2aaba3ea" name="Changes" comment="break" />
+    <list default="true" id="8446b119-5938-4576-8ec5-7ffa2aaba3ea" name="Changes" comment="fix sec">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +82,16 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build github.com/bootdotdev/learn-cicd-starter">
+    <configuration name="go build github.com/bootdotdev/learn-cicd-starter" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn-cicd-starter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/bootdotdev/learn-cicd-starter" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestSampleText in github.com/bootdotdev/learn-cicd-starter" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learn-cicd-starter" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/bootdotdev/learn-cicd-starter" />
         <item itemvalue="Go Test.TestSampleText in github.com/bootdotdev/learn-cicd-starter" />
       </list>
     </recent_temporary>
@@ -123,7 +136,14 @@
     <MESSAGE value="add coverage" />
     <MESSAGE value="add formatting" />
     <MESSAGE value="break" />
-    <option name="LAST_COMMIT_MESSAGE" value="break" />
+    <MESSAGE value="add ci" />
+    <MESSAGE value="add j" />
+    <MESSAGE value="add a" />
+    <MESSAGE value="add t" />
+    <MESSAGE value="add tj" />
+    <MESSAGE value="go sec" />
+    <MESSAGE value="fix sec" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix sec" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
