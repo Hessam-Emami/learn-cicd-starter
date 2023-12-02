@@ -36,7 +36,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
 
-      - name: run go tests
+      - name: Check formatting
         run: test -z $(go fmt ./...)
 
       - name: run staticcheck
