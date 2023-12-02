@@ -1,7 +1,7 @@
 package main
 
 import (
-"database/sql"
+	"database/sql"
 	"embed"
 	"io"
 	"log"
@@ -19,22 +19,23 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-type apiConfig struct {DB *database.Queries
+type apiConfig struct {
+	DB *database.Queries
 }
 
 //go:embed static/*
 var staticFiles embed.FS
 
-func main(){
+func main() {
 	err := godotenv.Load(".env")
-	if err != nil{
+	if err != nil {
 		log.Printf("warning: assuming default configuration. .env unreadable: %v", err)
 	}
 
 	port := os.Getenv("PORT")
 	if port == "" {
 		log.Fatal("PORT environment variable is not set")
-}
+	}
 
 	apiCfg := apiConfig{}
 
